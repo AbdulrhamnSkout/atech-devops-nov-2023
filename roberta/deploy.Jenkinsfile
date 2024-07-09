@@ -6,7 +6,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // complete this code to deploy to real k8s cluster
-                sh "echo 'image url is ${parameters.ROBERTA_IMAGE_URL}' "
+                sh "echo 'image url is ${params.ROBERTA_IMAGE_URL}' "
             }
         }
     }
